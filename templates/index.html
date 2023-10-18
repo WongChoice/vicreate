@@ -1,14 +1,13 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>YouTube Audio Extractor</title>
+    <title>YouTube Audio Downloader</title>
 </head>
 <body>
-    <h1>YouTube Audio Extractor</h1>
-    <form method="POST">
-        <label for="youtube_url">YouTube URL:</label>
-        <input type="text" name="youtube_url" id="youtube_url" required>
-        <button type="submit">Extract Audio</button>
+    <h1>YouTube Audio Downloader</h1>
+    <form action="/download" method="POST">
+        <label for="youtube_url">Enter a YouTube link:</label>
+        <input type="text" id="youtube_url" name="youtube_url" required>
+        <button type="submit">Download</button>
     </form>
 </body>
 </html>
